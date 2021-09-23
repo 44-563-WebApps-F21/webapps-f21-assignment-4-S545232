@@ -1,0 +1,105 @@
+.name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black; 
+}
+.speech{
+    font-family:'Times New Roman' ;
+    font-size: 18px;
+    color: black;
+}
+.stage-direction{
+    
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size : 17px;;
+    background-color:rgb(194, 175, 238);
+    color:black;
+}
+.stage-direction:hover{ 
+    background-color:rgb(0, 209, 45);
+    color:rgb(178, 116, 34);
+}
+
+.PARKER{
+    
+    color:rgb(0, 70, 128);
+
+
+}
+.LORD-DARLINGTON{
+    
+    color:darkolivegreen;
+
+}
+.LADY-WINDERMERE{
+    
+    color:rgb(25, 112, 112);
+
+}
+table,td,tr{
+    border: 2px solid blanchedalmond;
+    color: black;
+  }
+  th{
+    
+    border: 2px solid black;
+    color:gold;
+
+  }
+  td{
+    
+    text-align: left;
+  }
+
+  tr:nth-child(even){
+    background-color: rgb(135, 235, 157);
+  }
+  span h6:hover{
+      text-shadow: 0 0 8px red;
+      color: transparent;
+      font-size: 20px;
+      border: dotted;
+  }
+  .name:hover{
+    text-shadow: 2px 4px 3px rgb(77, 59, 143);
+    color:blueviolet;
+    filter: pink(3px);
+    border: double 2px rgb(15, 15, 15);
+  }
+  
+  .navigation {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .navigation a {
+    float: left;
+    padding: 15px;
+    color:black;
+    background-color: cyan;
+    align-content: center;
+    left: 50%;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navigation a:hover {
+    background-color:rgb(112, 216, 168);
+  }
+  
+  .item {
+      color: white;
+    background-color:black;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  .icon{
+      float:right;
+  }
